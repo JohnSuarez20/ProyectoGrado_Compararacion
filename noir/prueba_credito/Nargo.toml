@@ -1,0 +1,6 @@
+[package]
+name = "prueba_credito"
+type = "bin"
+authors = [""]
+
+[dependencies]

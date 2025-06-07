@@ -1,0 +1,1858 @@
+===== INICIO BENCHMARK NOIR =====
+Circuito: prueba_credito
+Archivo de pruebas: inputs/multipleInput.jsonl
+
+[1/4] 🔄 Compilando circuito...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+✅ Compilación completada
+
+[2/4] ⚙️ Preparando backend...
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+VK saved to "./target/vk"
+✅ Backend configurado
+
+[3/4] 🧪 Ejecutando pruebas desde inputs/multipleInput.jsonl...
+
+● PRUEBA 1: test_1.json
+📋 Input: {"ingresos": 5309, "gastos": 1543, "prestamo": 3150, "cuotas": 18, "cuota": 175}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_1.json:
+  Generación de prueba: .617723599 seg [✅]
+  Verificación: .059717523 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 2: test_2.json
+📋 Input: {"ingresos": 5171, "gastos": 1329, "prestamo": 11850, "cuotas": 30, "cuota": 395}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_2.json:
+  Generación de prueba: .590865127 seg [✅]
+  Verificación: .064019886 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 3: test_3.json
+📋 Input: {"ingresos": 6697, "gastos": 903, "prestamo": 3726, "cuotas": 18, "cuota": 207}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_3.json:
+  Generación de prueba: .588953080 seg [✅]
+  Verificación: .059246181 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 4: test_4.json
+📋 Input: {"ingresos": 7617, "gastos": 915, "prestamo": 9840, "cuotas": 24, "cuota": 410}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_4.json:
+  Generación de prueba: .642102477 seg [✅]
+  Verificación: .055860204 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 5: test_5.json
+📋 Input: {"ingresos": 5490, "gastos": 982, "prestamo": 2412, "cuotas": 36, "cuota": 67}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_5.json:
+  Generación de prueba: .580439594 seg [✅]
+  Verificación: .057160503 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 6: test_6.json
+📋 Input: {"ingresos": 6024, "gastos": 2893, "prestamo": 9162, "cuotas": 6, "cuota": 1527}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+error: Failed constraint
+   ┌─ /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+   │
+12 │     assert(resultado);
+   │            ---------
+   │
+   = Call stack:
+     1. /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+
+Failed to solve program: 'Cannot satisfy constraint'
+------------------------
+⏱️ Tiempos para test_6.json:
+  Generación de prueba: .400515518 seg [❌ (Restricción no satisfecha)]
+  Verificación: 0 seg [N/A]
+Estado: FALLÓ
+
+● PRUEBA 7: test_7.json
+📋 Input: {"ingresos": 8916, "gastos": 3562, "prestamo": 7812, "cuotas": 36, "cuota": 217}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_7.json:
+  Generación de prueba: .608183880 seg [✅]
+  Verificación: .056867655 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 8: test_8.json
+📋 Input: {"ingresos": 5786, "gastos": 2682, "prestamo": 11706, "cuotas": 6, "cuota": 1951}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+error: Failed constraint
+   ┌─ /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+   │
+12 │     assert(resultado);
+   │            ---------
+   │
+   = Call stack:
+     1. /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+
+Failed to solve program: 'Cannot satisfy constraint'
+------------------------
+⏱️ Tiempos para test_8.json:
+  Generación de prueba: .346409804 seg [❌ (Restricción no satisfecha)]
+  Verificación: 0 seg [N/A]
+Estado: FALLÓ
+
+● PRUEBA 9: test_9.json
+📋 Input: {"ingresos": 6063, "gastos": 1089, "prestamo": 8640, "cuotas": 30, "cuota": 288}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_9.json:
+  Generación de prueba: .586978394 seg [✅]
+  Verificación: .058311550 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 10: test_10.json
+📋 Input: {"ingresos": 8602, "gastos": 1329, "prestamo": 3624, "cuotas": 24, "cuota": 151}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_10.json:
+  Generación de prueba: .796497291 seg [✅]
+  Verificación: .060265726 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 11: test_11.json
+📋 Input: {"ingresos": 6706, "gastos": 1582, "prestamo": 1380, "cuotas": 10, "cuota": 138}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_11.json:
+  Generación de prueba: .641182280 seg [✅]
+  Verificación: .056540293 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 12: test_12.json
+📋 Input: {"ingresos": 8175, "gastos": 2085, "prestamo": 6354, "cuotas": 6, "cuota": 1059}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+error: Failed constraint
+   ┌─ /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+   │
+12 │     assert(resultado);
+   │            ---------
+   │
+   = Call stack:
+     1. /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+
+Failed to solve program: 'Cannot satisfy constraint'
+------------------------
+⏱️ Tiempos para test_12.json:
+  Generación de prueba: .364220655 seg [❌ (Restricción no satisfecha)]
+  Verificación: 0 seg [N/A]
+Estado: FALLÓ
+
+● PRUEBA 13: test_13.json
+📋 Input: {"ingresos": 9007, "gastos": 700, "prestamo": 7128, "cuotas": 36, "cuota": 198}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_13.json:
+  Generación de prueba: .642229398 seg [✅]
+  Verificación: .055276354 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 14: test_14.json
+📋 Input: {"ingresos": 9112, "gastos": 3588, "prestamo": 1764, "cuotas": 18, "cuota": 98}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_14.json:
+  Generación de prueba: .640611359 seg [✅]
+  Verificación: .056583938 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 15: test_15.json
+📋 Input: {"ingresos": 6670, "gastos": 1860, "prestamo": 4644, "cuotas": 12, "cuota": 387}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_15.json:
+  Generación de prueba: .684930979 seg [✅]
+  Verificación: .058603280 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 16: test_16.json
+📋 Input: {"ingresos": 7844, "gastos": 3593, "prestamo": 8982, "cuotas": 18, "cuota": 499}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_16.json:
+  Generación de prueba: .677553512 seg [✅]
+  Verificación: .056749150 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 17: test_17.json
+📋 Input: {"ingresos": 7273, "gastos": 1700, "prestamo": 11718, "cuotas": 18, "cuota": 651}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_17.json:
+  Generación de prueba: .601435684 seg [✅]
+  Verificación: .055528580 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 18: test_18.json
+📋 Input: {"ingresos": 8044, "gastos": 1775, "prestamo": 14580, "cuotas": 36, "cuota": 405}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_18.json:
+  Generación de prueba: .614228335 seg [✅]
+  Verificación: .054754896 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 19: test_19.json
+📋 Input: {"ingresos": 6710, "gastos": 1554, "prestamo": 5964, "cuotas": 6, "cuota": 994}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+error: Failed constraint
+   ┌─ /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+   │
+12 │     assert(resultado);
+   │            ---------
+   │
+   = Call stack:
+     1. /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+
+Failed to solve program: 'Cannot satisfy constraint'
+------------------------
+⏱️ Tiempos para test_19.json:
+  Generación de prueba: .331221011 seg [❌ (Restricción no satisfecha)]
+  Verificación: 0 seg [N/A]
+Estado: FALLÓ
+
+● PRUEBA 20: test_20.json
+📋 Input: {"ingresos": 8943, "gastos": 868, "prestamo": 10584, "cuotas": 36, "cuota": 294}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_20.json:
+  Generación de prueba: .585733624 seg [✅]
+  Verificación: .052437362 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 21: test_21.json
+📋 Input: {"ingresos": 8439, "gastos": 4197, "prestamo": 1872, "cuotas": 18, "cuota": 104}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_21.json:
+  Generación de prueba: .573421389 seg [✅]
+  Verificación: .066262675 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 22: test_22.json
+📋 Input: {"ingresos": 5482, "gastos": 751, "prestamo": 6036, "cuotas": 6, "cuota": 1006}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+error: Failed constraint
+   ┌─ /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+   │
+12 │     assert(resultado);
+   │            ---------
+   │
+   = Call stack:
+     1. /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+
+Failed to solve program: 'Cannot satisfy constraint'
+------------------------
+⏱️ Tiempos para test_22.json:
+  Generación de prueba: .362189031 seg [❌ (Restricción no satisfecha)]
+  Verificación: 0 seg [N/A]
+Estado: FALLÓ
+
+● PRUEBA 23: test_23.json
+📋 Input: {"ingresos": 5381, "gastos": 1499, "prestamo": 13104, "cuotas": 24, "cuota": 546}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_23.json:
+  Generación de prueba: .586757739 seg [✅]
+  Verificación: .053456446 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 24: test_24.json
+📋 Input: {"ingresos": 6682, "gastos": 2801, "prestamo": 12576, "cuotas": 24, "cuota": 524}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_24.json:
+  Generación de prueba: .573456332 seg [✅]
+  Verificación: .051932656 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 25: test_25.json
+📋 Input: {"ingresos": 9578, "gastos": 4013, "prestamo": 5890, "cuotas": 10, "cuota": 589}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_25.json:
+  Generación de prueba: .676928882 seg [✅]
+  Verificación: .050639666 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 26: test_26.json
+📋 Input: {"ingresos": 9144, "gastos": 1743, "prestamo": 11340, "cuotas": 18, "cuota": 630}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_26.json:
+  Generación de prueba: .572485230 seg [✅]
+  Verificación: .057346493 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 27: test_27.json
+📋 Input: {"ingresos": 5333, "gastos": 1697, "prestamo": 6210, "cuotas": 10, "cuota": 621}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+error: Failed constraint
+   ┌─ /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+   │
+12 │     assert(resultado);
+   │            ---------
+   │
+   = Call stack:
+     1. /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+
+Failed to solve program: 'Cannot satisfy constraint'
+------------------------
+⏱️ Tiempos para test_27.json:
+  Generación de prueba: .332982379 seg [❌ (Restricción no satisfecha)]
+  Verificación: 0 seg [N/A]
+Estado: FALLÓ
+
+● PRUEBA 28: test_28.json
+📋 Input: {"ingresos": 5093, "gastos": 954, "prestamo": 14940, "cuotas": 12, "cuota": 1245}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_28.json:
+  Generación de prueba: .565202323 seg [✅]
+  Verificación: .059132721 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 29: test_29.json
+📋 Input: {"ingresos": 7007, "gastos": 2924, "prestamo": 6912, "cuotas": 24, "cuota": 288}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_29.json:
+  Generación de prueba: .598458419 seg [✅]
+  Verificación: .055638459 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 30: test_30.json
+📋 Input: {"ingresos": 9938, "gastos": 1408, "prestamo": 4806, "cuotas": 18, "cuota": 267}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_30.json:
+  Generación de prueba: .562762368 seg [✅]
+  Verificación: .053856896 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 31: test_31.json
+📋 Input: {"ingresos": 8597, "gastos": 1935, "prestamo": 13086, "cuotas": 18, "cuota": 727}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_31.json:
+  Generación de prueba: .573146178 seg [✅]
+  Verificación: .056704779 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 32: test_32.json
+📋 Input: {"ingresos": 9663, "gastos": 2405, "prestamo": 12996, "cuotas": 18, "cuota": 722}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_32.json:
+  Generación de prueba: .598265055 seg [✅]
+  Verificación: .053063387 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 33: test_33.json
+📋 Input: {"ingresos": 6553, "gastos": 1036, "prestamo": 8580, "cuotas": 10, "cuota": 858}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+error: Failed constraint
+   ┌─ /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+   │
+12 │     assert(resultado);
+   │            ---------
+   │
+   = Call stack:
+     1. /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+
+Failed to solve program: 'Cannot satisfy constraint'
+------------------------
+⏱️ Tiempos para test_33.json:
+  Generación de prueba: .337489872 seg [❌ (Restricción no satisfecha)]
+  Verificación: 0 seg [N/A]
+Estado: FALLÓ
+
+● PRUEBA 34: test_34.json
+📋 Input: {"ingresos": 9650, "gastos": 919, "prestamo": 9408, "cuotas": 12, "cuota": 784}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_34.json:
+  Generación de prueba: .588230634 seg [✅]
+  Verificación: .055526240 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 35: test_35.json
+📋 Input: {"ingresos": 9910, "gastos": 1787, "prestamo": 3130, "cuotas": 10, "cuota": 313}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_35.json:
+  Generación de prueba: .583260032 seg [✅]
+  Verificación: .055674049 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 36: test_36.json
+📋 Input: {"ingresos": 6205, "gastos": 608, "prestamo": 10464, "cuotas": 12, "cuota": 872}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_36.json:
+  Generación de prueba: .641771851 seg [✅]
+  Verificación: .053876919 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 37: test_37.json
+📋 Input: {"ingresos": 8288, "gastos": 2077, "prestamo": 9936, "cuotas": 36, "cuota": 276}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_37.json:
+  Generación de prueba: .565500828 seg [✅]
+  Verificación: .055105320 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 38: test_38.json
+📋 Input: {"ingresos": 7250, "gastos": 2236, "prestamo": 4872, "cuotas": 12, "cuota": 406}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_38.json:
+  Generación de prueba: 1.496691452 seg [✅]
+  Verificación: .054144180 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 39: test_39.json
+📋 Input: {"ingresos": 9686, "gastos": 4607, "prestamo": 1980, "cuotas": 12, "cuota": 165}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_39.json:
+  Generación de prueba: .635780519 seg [✅]
+  Verificación: .052317259 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 40: test_40.json
+📋 Input: {"ingresos": 9331, "gastos": 2216, "prestamo": 3060, "cuotas": 36, "cuota": 85}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_40.json:
+  Generación de prueba: .587339653 seg [✅]
+  Verificación: .051047613 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 41: test_41.json
+📋 Input: {"ingresos": 5175, "gastos": 2567, "prestamo": 9120, "cuotas": 12, "cuota": 760}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+error: Failed constraint
+   ┌─ /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+   │
+12 │     assert(resultado);
+   │            ---------
+   │
+   = Call stack:
+     1. /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+
+Failed to solve program: 'Cannot satisfy constraint'
+------------------------
+⏱️ Tiempos para test_41.json:
+  Generación de prueba: .347801419 seg [❌ (Restricción no satisfecha)]
+  Verificación: 0 seg [N/A]
+Estado: FALLÓ
+
+● PRUEBA 42: test_42.json
+📋 Input: {"ingresos": 7461, "gastos": 1018, "prestamo": 7230, "cuotas": 10, "cuota": 723}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_42.json:
+  Generación de prueba: .594822670 seg [✅]
+  Verificación: .051631282 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 43: test_43.json
+📋 Input: {"ingresos": 9644, "gastos": 4430, "prestamo": 9120, "cuotas": 12, "cuota": 760}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_43.json:
+  Generación de prueba: .565468540 seg [✅]
+  Verificación: .057903288 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 44: test_44.json
+📋 Input: {"ingresos": 7747, "gastos": 2159, "prestamo": 13800, "cuotas": 24, "cuota": 575}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_44.json:
+  Generación de prueba: .579488398 seg [✅]
+  Verificación: .058636036 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 45: test_45.json
+📋 Input: {"ingresos": 5276, "gastos": 746, "prestamo": 10410, "cuotas": 30, "cuota": 347}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_45.json:
+  Generación de prueba: .576609882 seg [✅]
+  Verificación: .054224686 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 46: test_46.json
+📋 Input: {"ingresos": 7288, "gastos": 1851, "prestamo": 7550, "cuotas": 10, "cuota": 755}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_46.json:
+  Generación de prueba: .572853634 seg [✅]
+  Verificación: .051379310 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 47: test_47.json
+📋 Input: {"ingresos": 6148, "gastos": 588, "prestamo": 6012, "cuotas": 18, "cuota": 334}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_47.json:
+  Generación de prueba: .587665954 seg [✅]
+  Verificación: .061068727 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 48: test_48.json
+📋 Input: {"ingresos": 9862, "gastos": 901, "prestamo": 8010, "cuotas": 18, "cuota": 445}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_48.json:
+  Generación de prueba: .581227635 seg [✅]
+  Verificación: .053170097 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 49: test_49.json
+📋 Input: {"ingresos": 7969, "gastos": 899, "prestamo": 8028, "cuotas": 18, "cuota": 446}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_49.json:
+  Generación de prueba: .578882650 seg [✅]
+  Verificación: .055727193 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 50: test_50.json
+📋 Input: {"ingresos": 6709, "gastos": 1083, "prestamo": 1260, "cuotas": 36, "cuota": 35}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_50.json:
+  Generación de prueba: .561883646 seg [✅]
+  Verificación: .052147510 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 51: test_51.json
+📋 Input: {"ingresos": 7208, "gastos": 1050, "prestamo": 1980, "cuotas": 30, "cuota": 66}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_51.json:
+  Generación de prueba: .582313643 seg [✅]
+  Verificación: .054931730 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 52: test_52.json
+📋 Input: {"ingresos": 6643, "gastos": 783, "prestamo": 7476, "cuotas": 6, "cuota": 1246}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+error: Failed constraint
+   ┌─ /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+   │
+12 │     assert(resultado);
+   │            ---------
+   │
+   = Call stack:
+     1. /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+
+Failed to solve program: 'Cannot satisfy constraint'
+------------------------
+⏱️ Tiempos para test_52.json:
+  Generación de prueba: .429476025 seg [❌ (Restricción no satisfecha)]
+  Verificación: 0 seg [N/A]
+Estado: FALLÓ
+
+● PRUEBA 53: test_53.json
+📋 Input: {"ingresos": 8694, "gastos": 594, "prestamo": 9900, "cuotas": 36, "cuota": 275}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_53.json:
+  Generación de prueba: .581768389 seg [✅]
+  Verificación: .051481742 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 54: test_54.json
+📋 Input: {"ingresos": 9823, "gastos": 3043, "prestamo": 8700, "cuotas": 30, "cuota": 290}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_54.json:
+  Generación de prueba: .592060018 seg [✅]
+  Verificación: .054249245 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 55: test_55.json
+📋 Input: {"ingresos": 7571, "gastos": 1434, "prestamo": 7608, "cuotas": 24, "cuota": 317}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_55.json:
+  Generación de prueba: .582485655 seg [✅]
+  Verificación: .056708812 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 56: test_56.json
+📋 Input: {"ingresos": 9222, "gastos": 957, "prestamo": 5880, "cuotas": 10, "cuota": 588}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_56.json:
+  Generación de prueba: .575758046 seg [✅]
+  Verificación: .052819530 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 57: test_57.json
+📋 Input: {"ingresos": 5448, "gastos": 990, "prestamo": 8616, "cuotas": 12, "cuota": 718}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+error: Failed constraint
+   ┌─ /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+   │
+12 │     assert(resultado);
+   │            ---------
+   │
+   = Call stack:
+     1. /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+
+Failed to solve program: 'Cannot satisfy constraint'
+------------------------
+⏱️ Tiempos para test_57.json:
+  Generación de prueba: .355554050 seg [❌ (Restricción no satisfecha)]
+  Verificación: 0 seg [N/A]
+Estado: FALLÓ
+
+● PRUEBA 58: test_58.json
+📋 Input: {"ingresos": 7378, "gastos": 2283, "prestamo": 2376, "cuotas": 24, "cuota": 99}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_58.json:
+  Generación de prueba: .600582493 seg [✅]
+  Verificación: .055347078 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 59: test_59.json
+📋 Input: {"ingresos": 8810, "gastos": 2490, "prestamo": 11196, "cuotas": 36, "cuota": 311}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_59.json:
+  Generación de prueba: .586876538 seg [✅]
+  Verificación: .054615001 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 60: test_60.json
+📋 Input: {"ingresos": 7380, "gastos": 2986, "prestamo": 8532, "cuotas": 18, "cuota": 474}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_60.json:
+  Generación de prueba: .608942146 seg [✅]
+  Verificación: .054701578 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 61: test_61.json
+📋 Input: {"ingresos": 9729, "gastos": 3315, "prestamo": 4344, "cuotas": 24, "cuota": 181}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_61.json:
+  Generación de prueba: .589442120 seg [✅]
+  Verificación: .051120781 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 62: test_62.json
+📋 Input: {"ingresos": 6619, "gastos": 2531, "prestamo": 8688, "cuotas": 12, "cuota": 724}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+error: Failed constraint
+   ┌─ /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+   │
+12 │     assert(resultado);
+   │            ---------
+   │
+   = Call stack:
+     1. /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+
+Failed to solve program: 'Cannot satisfy constraint'
+------------------------
+⏱️ Tiempos para test_62.json:
+  Generación de prueba: .329416807 seg [❌ (Restricción no satisfecha)]
+  Verificación: 0 seg [N/A]
+Estado: FALLÓ
+
+● PRUEBA 63: test_63.json
+📋 Input: {"ingresos": 9946, "gastos": 2339, "prestamo": 11376, "cuotas": 36, "cuota": 316}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_63.json:
+  Generación de prueba: .577854229 seg [✅]
+  Verificación: .053251354 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 64: test_64.json
+📋 Input: {"ingresos": 7884, "gastos": 2600, "prestamo": 2736, "cuotas": 18, "cuota": 152}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_64.json:
+  Generación de prueba: .590391981 seg [✅]
+  Verificación: .055019769 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 65: test_65.json
+📋 Input: {"ingresos": 7480, "gastos": 1484, "prestamo": 8166, "cuotas": 6, "cuota": 1361}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+error: Failed constraint
+   ┌─ /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+   │
+12 │     assert(resultado);
+   │            ---------
+   │
+   = Call stack:
+     1. /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+
+Failed to solve program: 'Cannot satisfy constraint'
+------------------------
+⏱️ Tiempos para test_65.json:
+  Generación de prueba: .442541438 seg [❌ (Restricción no satisfecha)]
+  Verificación: 0 seg [N/A]
+Estado: FALLÓ
+
+● PRUEBA 66: test_66.json
+📋 Input: {"ingresos": 6481, "gastos": 965, "prestamo": 11484, "cuotas": 36, "cuota": 319}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_66.json:
+  Generación de prueba: .560927961 seg [✅]
+  Verificación: .058611557 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 67: test_67.json
+📋 Input: {"ingresos": 5079, "gastos": 2083, "prestamo": 10608, "cuotas": 24, "cuota": 442}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_67.json:
+  Generación de prueba: .586268515 seg [✅]
+  Verificación: .052886193 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 68: test_68.json
+📋 Input: {"ingresos": 9953, "gastos": 1157, "prestamo": 8160, "cuotas": 30, "cuota": 272}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_68.json:
+  Generación de prueba: .659294910 seg [✅]
+  Verificación: .088970687 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 69: test_69.json
+📋 Input: {"ingresos": 9802, "gastos": 2747, "prestamo": 11250, "cuotas": 10, "cuota": 1125}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_69.json:
+  Generación de prueba: .774095429 seg [✅]
+  Verificación: .059681240 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 70: test_70.json
+📋 Input: {"ingresos": 5617, "gastos": 2052, "prestamo": 14616, "cuotas": 24, "cuota": 609}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_70.json:
+  Generación de prueba: .600641859 seg [✅]
+  Verificación: .055730693 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 71: test_71.json
+📋 Input: {"ingresos": 7923, "gastos": 3658, "prestamo": 2784, "cuotas": 24, "cuota": 116}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_71.json:
+  Generación de prueba: .590767238 seg [✅]
+  Verificación: .058399084 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 72: test_72.json
+📋 Input: {"ingresos": 7734, "gastos": 661, "prestamo": 13692, "cuotas": 12, "cuota": 1141}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_72.json:
+  Generación de prueba: .594002908 seg [✅]
+  Verificación: .054853840 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 73: test_73.json
+📋 Input: {"ingresos": 5284, "gastos": 676, "prestamo": 10344, "cuotas": 24, "cuota": 431}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_73.json:
+  Generación de prueba: .622743254 seg [✅]
+  Verificación: .049468022 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 74: test_74.json
+📋 Input: {"ingresos": 8624, "gastos": 2448, "prestamo": 14000, "cuotas": 10, "cuota": 1400}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_74.json:
+  Generación de prueba: .583129315 seg [✅]
+  Verificación: .058762414 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 75: test_75.json
+📋 Input: {"ingresos": 8619, "gastos": 3025, "prestamo": 13800, "cuotas": 30, "cuota": 460}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_75.json:
+  Generación de prueba: .568847794 seg [✅]
+  Verificación: .107517160 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 76: test_76.json
+📋 Input: {"ingresos": 5485, "gastos": 899, "prestamo": 13194, "cuotas": 18, "cuota": 733}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_76.json:
+  Generación de prueba: .596118889 seg [✅]
+  Verificación: .058616879 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 77: test_77.json
+📋 Input: {"ingresos": 6913, "gastos": 2652, "prestamo": 13080, "cuotas": 30, "cuota": 436}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_77.json:
+  Generación de prueba: .575950571 seg [✅]
+  Verificación: .054130946 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 78: test_78.json
+📋 Input: {"ingresos": 8551, "gastos": 2626, "prestamo": 6768, "cuotas": 36, "cuota": 188}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_78.json:
+  Generación de prueba: .577621602 seg [✅]
+  Verificación: .049935646 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 79: test_79.json
+📋 Input: {"ingresos": 9078, "gastos": 3892, "prestamo": 1404, "cuotas": 12, "cuota": 117}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_79.json:
+  Generación de prueba: .586866709 seg [✅]
+  Verificación: .055728206 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 80: test_80.json
+📋 Input: {"ingresos": 9451, "gastos": 3103, "prestamo": 10380, "cuotas": 30, "cuota": 346}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_80.json:
+  Generación de prueba: .585547905 seg [✅]
+  Verificación: .053854690 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 81: test_81.json
+📋 Input: {"ingresos": 8434, "gastos": 2751, "prestamo": 9864, "cuotas": 18, "cuota": 548}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_81.json:
+  Generación de prueba: .583144802 seg [✅]
+  Verificación: .062275094 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 82: test_82.json
+📋 Input: {"ingresos": 7577, "gastos": 1921, "prestamo": 1880, "cuotas": 10, "cuota": 188}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_82.json:
+  Generación de prueba: .590275199 seg [✅]
+  Verificación: .054489341 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 83: test_83.json
+📋 Input: {"ingresos": 9991, "gastos": 2715, "prestamo": 1200, "cuotas": 24, "cuota": 50}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_83.json:
+  Generación de prueba: .569771363 seg [✅]
+  Verificación: .056478564 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 84: test_84.json
+📋 Input: {"ingresos": 9800, "gastos": 4619, "prestamo": 4080, "cuotas": 24, "cuota": 170}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_84.json:
+  Generación de prueba: .585229115 seg [✅]
+  Verificación: .051924512 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 85: test_85.json
+📋 Input: {"ingresos": 7013, "gastos": 2386, "prestamo": 3192, "cuotas": 12, "cuota": 266}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_85.json:
+  Generación de prueba: 1.587484241 seg [✅]
+  Verificación: .063936638 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 86: test_86.json
+📋 Input: {"ingresos": 9153, "gastos": 3159, "prestamo": 9612, "cuotas": 36, "cuota": 267}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_86.json:
+  Generación de prueba: .575846345 seg [✅]
+  Verificación: .054624325 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 87: test_87.json
+📋 Input: {"ingresos": 6836, "gastos": 3039, "prestamo": 2040, "cuotas": 12, "cuota": 170}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_87.json:
+  Generación de prueba: .630805049 seg [✅]
+  Verificación: .056081879 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 88: test_88.json
+📋 Input: {"ingresos": 7741, "gastos": 3279, "prestamo": 14230, "cuotas": 10, "cuota": 1423}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_88.json:
+  Generación de prueba: .586775566 seg [✅]
+  Verificación: .065836870 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 89: test_89.json
+📋 Input: {"ingresos": 5073, "gastos": 720, "prestamo": 5280, "cuotas": 24, "cuota": 220}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_89.json:
+  Generación de prueba: .724432082 seg [✅]
+  Verificación: .073250598 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 90: test_90.json
+📋 Input: {"ingresos": 9995, "gastos": 2031, "prestamo": 11664, "cuotas": 36, "cuota": 324}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_90.json:
+  Generación de prueba: .734843302 seg [✅]
+  Verificación: .070909731 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 91: test_91.json
+📋 Input: {"ingresos": 7233, "gastos": 2179, "prestamo": 2232, "cuotas": 18, "cuota": 124}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_91.json:
+  Generación de prueba: .587345578 seg [✅]
+  Verificación: .057902482 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 92: test_92.json
+📋 Input: {"ingresos": 6083, "gastos": 2227, "prestamo": 2412, "cuotas": 36, "cuota": 67}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_92.json:
+  Generación de prueba: .590033579 seg [✅]
+  Verificación: .051013556 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 93: test_93.json
+📋 Input: {"ingresos": 9436, "gastos": 4426, "prestamo": 2916, "cuotas": 18, "cuota": 162}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_93.json:
+  Generación de prueba: .595917594 seg [✅]
+  Verificación: .054178141 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 94: test_94.json
+📋 Input: {"ingresos": 6504, "gastos": 1017, "prestamo": 13080, "cuotas": 24, "cuota": 545}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_94.json:
+  Generación de prueba: .674908883 seg [✅]
+  Verificación: .052106235 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 95: test_95.json
+📋 Input: {"ingresos": 7156, "gastos": 2031, "prestamo": 10710, "cuotas": 30, "cuota": 357}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_95.json:
+  Generación de prueba: .572997485 seg [✅]
+  Verificación: .052703352 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 96: test_96.json
+📋 Input: {"ingresos": 6621, "gastos": 2081, "prestamo": 14514, "cuotas": 6, "cuota": 2419}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+error: Failed constraint
+   ┌─ /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+   │
+12 │     assert(resultado);
+   │            ---------
+   │
+   = Call stack:
+     1. /home/johns/pruebas/noir/prueba_credito/src/main.nr:12:12
+
+Failed to solve program: 'Cannot satisfy constraint'
+------------------------
+⏱️ Tiempos para test_96.json:
+  Generación de prueba: .370884284 seg [❌ (Restricción no satisfecha)]
+  Verificación: 0 seg [N/A]
+Estado: FALLÓ
+
+● PRUEBA 97: test_97.json
+📋 Input: {"ingresos": 9878, "gastos": 3356, "prestamo": 2490, "cuotas": 6, "cuota": 415}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_97.json:
+  Generación de prueba: .581092359 seg [✅]
+  Verificación: .060556163 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 98: test_98.json
+📋 Input: {"ingresos": 7790, "gastos": 1239, "prestamo": 13872, "cuotas": 12, "cuota": 1156}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_98.json:
+  Generación de prueba: .569772027 seg [✅]
+  Verificación: .057457708 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 99: test_99.json
+📋 Input: {"ingresos": 5583, "gastos": 730, "prestamo": 9900, "cuotas": 30, "cuota": 330}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_99.json:
+  Generación de prueba: .582776241 seg [✅]
+  Verificación: .058316931 seg [✅]
+Estado: PASÓ
+
+● PRUEBA 100: test_100.json
+📋 Input: {"ingresos": 9037, "gastos": 4247, "prestamo": 11160, "cuotas": 24, "cuota": 465}
+🔄 Input convertido y completado con valores por defecto
+⚡ Ejecutando nargo...
+[prueba_credito] Circuit witness successfully solved
+[prueba_credito] Witness saved to /home/johns/pruebas/noir/prueba_credito/target/prueba_credito.gz
+Scheme is: ultra_honk
+Finalized circuit size: 3509
+Proof saved to "./target/proof"
+🔍 Verificando prueba...
+Scheme is: ultra_honk
+Proof verified successfully
+------------------------
+⏱️ Tiempos para test_100.json:
+  Generación de prueba: .572204036 seg [✅]
+  Verificación: .057072003 seg [✅]
+Estado: PASÓ
+
+[4/4] 📊 RESULTADOS FINALES
+============================
+🔢 Total de pruebas: 100
+✅ Pruebas pasadas: 87
+❌ Pruebas fallidas: 13
+⚠️ Errores de restricción: 13
+⏳ Tiempo total: 70.677546747 seg
+📈 Promedios:
+  Generación de prueba: .590 seg/prueba (todos los casos)
+  Verificación: .057 seg/prueba (solo exitosas)
+============================
+✅ Benchmark completado
